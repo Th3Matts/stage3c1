@@ -22,32 +22,37 @@
           Avalie sua mentoria
         </h1>
         <p> Chegou a hora de avaliar o seu mentor. Bora lá? </p>
+        <img src="images/notes.svg" alt="estrelas que vão de um a cinco para mostar uma nota">
       </div>
-      <img src="images/notes.svg" alt="estrelas que vão de um a cinco para mostar uma nota">
+      
+
+      <div class="cabeca">
+        
+        <h1> Informações pessoais </h1>
+      </div>
     </header>
 
     <form>
 
       <fieldset>
         <div class="primeiro-fieldset">
-          <legend> Informações pessoais </legend>
 
           <div class="name-wrapper">
 
             <div class="input-wrapper">
               <label for="client-name" > Nome </label>
-              <input type="text" id="cliente-name">
+              <input type="text" id="client-name">
             </div>
             <div class="input-wrapper">
               <label for="client-surname"> Sobrenome </label>
-              <input type="text" id="cliente-surname">
+              <input type="text" id="client-surname">
             </div>
           </div>
 
 
           <div class="mail-wrapper">
             <label for="client-email"> Email <span> (digite um email válido) </span> </label>
-            <input type="email" id="cliente-email">
+            <input type="email" id="client-email">
           </div>
 
         </div>
@@ -74,7 +79,7 @@
             </div>
 
             <div class="checkbox-wrapper">
-              <input type="checkbox" id="cliente-doubts">
+              <input type="checkbox" id="client-doubts">
               <label for="client-doubts" > Todas as minhas dúvidas foram esclarecidas durante a mentoria. </label>
             </div>
 
@@ -89,16 +94,16 @@
 
             <div class="day-wrapper">
               <label for="client-name" > Data <span> (DD/MM/AAAA) </span> </label>
-              <input type="date" id="cliente-name">
+              <input type="date" id="client-name">
             </div>
             <div class="mentor-hour">
               <div class="time-wrapper">
-                <label for="client-surname"> Das </label>
-                <input type="time" id="cliente-surname">
+                <label for="mentor-from"> Das </label>
+                <input type="time" id="mentor-from">
               </div>
               <div class="time-wrapper">
-                <label for="client-name" > Até </label>
-                <input type="time" id="cliente-name">
+                <label for="mentor-to" > Até </label>
+                <input type="time" id="mentor-to">
               </div>
             </div>
 
@@ -106,13 +111,9 @@
 
         </div>
       </fieldset>
-
-      <button>
-        Salvar
-      </button>
-
+      
+      <input class="button" type="submit" value="Salvar">
     </form>
-
   </div>
 </body>
 </html>
