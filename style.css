@@ -50,9 +50,7 @@ header{
 header h1,
 form legend,
 form button{
-  font-family: 'Staatliches', sans-serif;
   color: #FFFFFFFF;
-}
 
 header h1{
   font-size: 36px;
