@@ -1,0 +1,300 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #BFD7E4;
+}
+
+body::before{
+  content: '';
+
+  background: #293241;
+  width: 100%;
+  height: 465px;
+
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+.page{
+  width: 760px;
+
+  margin: 107px auto 107px;
+}
+
+.header-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  width: 750px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 32px;
+}
+
+header h1,
+form legend,
+form button{
+  font-family: 'Staatliches', sans-serif;
+  color: #FFFFFFFF;
+}
+
+header h1{
+  font-size: 36px;
+  font-weight: 400;
+}
+
+header p{
+  color: #FFFFFFFF;
+}
+
+header img{
+  width: 225px;
+  height: 100px;
+
+  margin-top: 26px;
+}
+
+form{
+  background: #FFF;
+  
+  border-radius: 20px 20px 20px 20px;
+
+  width: 100%;
+  min-height: 1075px;
+
+  padding: 64px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+header::after{
+  content: '';
+
+  background: #F67669;
+
+  font-family: 'Staatliches', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+  border-radius: 20px 20px 0px 0px;
+
+  width: 760px;
+  height: 137px;
+
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  bottom: 54%;
+  left: 20.9%;
+}
+
+fieldset{
+  border: none;
+}
+
+.primeiro-fieldset legend{
+  color: #FFFFFFFF;
+  
+  position: absolute;
+  top: -100px;
+}
+
+button,
+.primeiro-fieldset legend,
+.fieldset-wrapper legend{
+  width: 100%;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.primeiro-fieldset{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  margin-top: 100px;
+
+
+  position: relative;
+  z-index: 2;
+}
+
+.input-wrapper,
+.name-wrapper,
+.mail-wrapper,
+.select-wrapper,
+.textarea-wrapper,
+.checkbox-wrapper{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.primeiro-fieldset label,
+.input-wrapper label,
+.name-wrapper label,
+.mail-wrapper label,
+.select-wrapper label,
+.textarea-wrapper label,
+.checkbox-wrapper label,
+.day-wrapper label,
+.time-wrapper label{
+  font-family: 'Poppins', sans-serif;
+
+  color: #4E4958;
+  
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  margin-bottom: 8px;
+}
+
+.mail-wrapper label span{
+  color: #C1BCCC;
+  font-size: 12px;
+  line-height: 20px;
+
+  margin-left: 9px;
+}
+
+.input-wrapper input,
+.mail-wrapper input,
+.select-wrapper select,
+.textarea-wrapper textarea,
+.day-wrapper input,
+.time-wrapper input,
+button {
+  font-family: 'Poppins', sans-serif;
+
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 100%;
+  height: 55px;
+
+  padding: 10px;
+}
+
+.name-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 22px;
+}
+
+.mail-wrapper,
+.select-wrapper,
+.day-wrapper,
+.time-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldset-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 15px;
+}
+
+.fieldset-wrapper legend{
+  color: #253B51;
+  margin-bottom: 31px;
+}
+
+.fieldset-wrapper legend::after{
+  content: '';
+
+  border-bottom: 2px solid #E6E6F0;
+
+  width: 100%;
+
+  display: block;
+  margin-top: 10px;
+}
+
+.select-wrapper select{
+  width: 50%;
+}
+
+.textarea-wrapper{
+  margin: 15px 0;
+}
+
+.textarea-wrapper textarea{
+  height: 167px;
+
+  resize: none;
+}
+
+.checkbox-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-wrapper label{
+  margin: 0;
+}
+
+.date-wrapper, .mentor-hour{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.mentor-hour{
+  gap: 10px;
+}
+
+button{
+  background: #F67669;
+
+  border-radius: 8px;
+
+  font-size: 20px;
+}
+
+
