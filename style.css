@@ -264,9 +264,7 @@ form .button,
   top: 0;
   left: 0;
   opacity: 0;
-} 
-
-
+}
 
 
 .checkbox-wrapper label{
@@ -279,10 +277,6 @@ form .button,
 
   position: absolute; 
 }
-
-
-
-
  
 .checkbox-wrapper label::before{
   content: '';
